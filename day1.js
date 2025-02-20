@@ -34,3 +34,6 @@ let khoyo = {
 }
 console.log(khoyo.reactCoursePrice);
 //key:value
+
+
+console.log("first push in git using terminal")

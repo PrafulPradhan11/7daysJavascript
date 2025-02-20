@@ -89,3 +89,21 @@ let age = null
 // }
 let result = age ?? "No age"
 console.log(result) 
+
+
+
+//Spme additional 
+//Array destructing
+// let arr = [1,2,3];
+// let [a,b,c,d = 6] = arr;
+// console.log(b);
+
+// Object destructing 
+// let obj = {name: "Michale"};
+// let {name:fName} = obj;
+// console.log(fName);
+
+//Another way of destructing the object
+// let remain = ["baby1", "baby2", "baby3"];
+// let { 1: f } = remain;
+// console.log(f);

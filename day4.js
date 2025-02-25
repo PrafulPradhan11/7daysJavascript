@@ -1,25 +1,21 @@
+// Callback function are functions passed as an argument
+// Higher order function is a function that take accept one or more functions(callback) or return a function
 
 // function sayHello(name,callback){
 //     console.log(name)
 //     callback()
 // }
-
 // function sayGoodBye(){
 //     console.log("GoodBye")
 // }
-
 // sayHello("Manish",sayGoodBye)
 
-// Callback function are functions passed as an argument
-// Higher order function is a function that take accept one or more functions(callback) or return a function
-
-// const fruits =['Apple', 'Banana', 'Mango']
 
 //forEach HOF 
-
-// fruits.forEach(function(fruit){
-    // console.log(fruit)
-// })
+const fruits =['Apple', 'Banana', 'Mango']
+fruits.forEach(function(fruit){
+    console.log(fruit)
+})
 
 // const numbers = [1,2,3,4,5]
 // const squaredNumbers = []
@@ -243,4 +239,4 @@ const grpoupData = people.reduce(function(accumulator,person){
      return accumulator
 }, {})
 
-console.log(grpoupData);
+// console.log(grpoupData);

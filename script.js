@@ -77,3 +77,11 @@ function updateTodoListWithFilteredTasks(filteredTasks){
     })
     updateAggregrate();
 }
+
+
+
+
+/*Key value in the number */
+window.addEventListener('keydown', function(e){
+    console.log(e.keyCode)
+});
